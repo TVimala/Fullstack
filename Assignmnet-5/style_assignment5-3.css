@@ -1,0 +1,17 @@
+body{
+    
+    background-image: url(https://i.pinimg.com/originals/08/ab/83/08ab83b2056b97eb7b431fd359c8e085.jpg)}
+    .para{
+        font-size: 60px;
+    }
+    .div1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .div2{
+        position: relative;
+        margin-top: -5%;
+    }

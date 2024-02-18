@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+ p{
+    display: inline;
+  }
+  #i1{
+    float: left;
+    width:20vw;
+    margin-right: 10px;
+  }
+  #i2{
+    float: right ;
+    width:20vw;
+    margin-top: 5px;
+  
+  }
+  .container{
+    margin: 20px;
+  }
