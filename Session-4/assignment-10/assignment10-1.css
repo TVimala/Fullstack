@@ -28,6 +28,8 @@ a{
   grid-row: 1/2;
   background-color: white;
  padding: 10px;
+ position: fixed;
+ width: 100vw;
 }
 .child2{
   display:grid;
@@ -81,6 +83,11 @@ h4{
 }
 h1{
   margin-bottom: 10px;
+}
+.page{
+color: white;
+display: flex;
+justify-content: space-evenly;
 }
 @media screen and (max-width:567px){
 body{
