@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: white;
+}
+main{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 64px 80vh;
+        color: rgb(29, 29, 29);
+}
+.child1{
+        grid-row: 1/2;
+        width: 100vw;
+        height: 64px;
+        display: grid;
+        position: sticky;
+        background-color: #FFFFFF;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 100%;
+}
+svg{
+    align-self: center;
+}
+.logo{
+    grid-column: 1/2;
+    margin: 0px;
+}
+nav{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+}
+.child2{
+    display: grid;
+    grid-row: 2/3;
+    background-color: rgb(244, 243, 239);
+    grid-template-columns: 100vh 1fr;
+    grid-template-rows: 1fr;
+}
+.img1{
+    width: 90vh;
+    height:80vh;
+}
+.div1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 60px;
+}
+.div2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+button{
+    background-color: rgb(31, 29, 29);
+    color: #FFFFFF;
+    padding: 5px;
+}
+input{
+    background-color: rgb(244, 243, 239);
+    height: 6vh;
+}
+.para{
+    font-size: 0.7rem;
+    color:rgb(126, 125, 119);
+}
+@media screen and (max-width:600px) {
+html{
+    font-size: 0.7rem;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+    .child2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: rgb(244, 243, 239);
+    }
+    .div1{
+        grid-row:1/2;
+        grid-column: 1/2;
+    }
+    .div2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        background-color: rgb(244, 243, 239);
+    }
+}
