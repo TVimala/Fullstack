@@ -13,6 +13,7 @@ main{
         grid-template-columns: 100vw;
         grid-template-rows: 64px 80vh;
         color: rgb(29, 29, 29);
+        font-size: 1rem;
 }
 .child1{
         grid-row: 1/2;
