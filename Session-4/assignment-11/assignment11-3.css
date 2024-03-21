@@ -64,8 +64,7 @@ button{
 input{
     background-color: rgb(244, 243, 239);
     height: 6vh;
-    width:13vw;
-    margin-right: 0;
+    width:40vw;
 }
 .para{
     font-size: 0.7rem;
