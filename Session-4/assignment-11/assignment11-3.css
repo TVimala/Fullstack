@@ -60,12 +60,13 @@ nav{
 button{
     background-color: rgb(31, 29, 29);
     color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
 }
 input{
     background-color: rgb(244, 243, 239);
     height: 6vh;
-    width:50vh;
+    width:60vh;
+    margin:0;
 }
 .para{
     font-size: 0.7rem;
