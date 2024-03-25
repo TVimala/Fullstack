@@ -72,7 +72,7 @@ input{
     font-size: 0.7rem;
     color:rgb(126, 125, 119);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:710px) {
 html{
     font-size: 0.7rem;
 }
@@ -94,9 +94,13 @@ html{
         grid-column: 1/2;
         grid-row: 2/3;
         text-align: center;
-        background-color: rgb(244, 243, 239);
     }
     input{
         width:30vh;
     }
+    .img1{
+        height:60vh;
+        width: 60vh;
+    }
+
 }
