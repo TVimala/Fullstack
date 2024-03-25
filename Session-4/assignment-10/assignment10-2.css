@@ -10,6 +10,7 @@
         justify-content: space-evenly;
         grid-column: 2/4;
         grid-row:1/2;
+        padding:5px;
   }
   
   ul{
