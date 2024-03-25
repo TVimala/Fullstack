@@ -108,14 +108,7 @@ html{
     }
     .img1{
         height:60vh;
-        width: 80vh;
+        width: 85vh;
     }
 
-}
-@media screen and (max-width:576px) {
-    .img1{
-        width:60vh;
-        height:60vh;
-    }
-    
 }
