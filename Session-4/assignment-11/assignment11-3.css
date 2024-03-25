@@ -75,6 +75,9 @@ input{
     color:rgb(126, 125, 119);
 }
 @media screen and (max-width:710px) {
+ body{
+    overflow-y:auto;
+ }
 html{
     font-size: 0.7rem;
 }
@@ -102,7 +105,7 @@ html{
     }
     .img1{
         height:60vh;
-        width: 80vh;
+        width: auto;
     }
 
 }

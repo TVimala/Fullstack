@@ -109,7 +109,7 @@
     width: 80%;
     height: 40%;
   }
-  h5{
+  .best{
     color: rgb(5, 47, 126);
   }
   @media screen and (max-width:650px) {
