@@ -23,3 +23,7 @@ body{
 li{
       list-style-position: inside;     
 }
+@media screen and (max-width:576px) {
+    background-size:cover;
+    font-size: 0.7rem;
+}
