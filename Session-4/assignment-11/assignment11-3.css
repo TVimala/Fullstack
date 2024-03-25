@@ -7,6 +7,7 @@ body{
     width: 100vh;
     height: 100vh;
     background-color: white;
+    overflow:hidden;
 }
 main{
         display: grid;
@@ -17,7 +18,7 @@ main{
 }
 .child1{
         grid-row: 1/2;
-        width: 100vw;
+        width: 100vh;
         height: 64px;
         display: grid;
         position: sticky;
@@ -43,7 +44,7 @@ nav{
     background-color: rgb(244, 243, 239);
     grid-template-columns: 100vh 1fr;
     grid-template-rows: 1fr;
-    width:100vw;
+    width:100vh;
     height:auto;
 }
 .img1{
@@ -105,7 +106,15 @@ html{
     }
     .img1{
         height:60vh;
-        width: auto;
+        width: 71vh;
     }
 
+}
+@media screen and (max-width:576px) {
+    
+    .img1{
+        width:38vh;
+        height:60vh;
+    }
+    
 }
