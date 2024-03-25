@@ -44,9 +44,9 @@ nav{
     grid-template-columns: 100vh 1fr;
     grid-template-rows: 1fr;
 }
-img-fluid{
-    max-width: 100%;
-    height:auto;
+.img1{
+    width: 90vh;
+    height:80vh;
 }
 .div1{
     grid-column: 1/2;
