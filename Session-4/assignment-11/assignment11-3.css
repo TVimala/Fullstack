@@ -15,8 +15,6 @@ main{
         grid-template-rows: 64px 80vh;
         color: rgb(29, 29, 29);
         font-size: 1rem;
-        width:100vh;
-        height:100vh;
 }
 .child1{
         grid-row: 1/2;
