@@ -10,7 +10,7 @@
         justify-content: space-around;
         grid-column: 2/4;
         grid-row:1/2;
-        padding-top: 15px;
+        padding-top: 10px;
   }
   
   ul{
@@ -25,7 +25,8 @@
      grid-row:1/2;
      grid-column: 1/2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
   }
   a{
     font-weight: 400;
