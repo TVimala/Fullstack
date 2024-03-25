@@ -58,9 +58,6 @@ body{
     grid-row: 3/4;
 }
 @media screen  and (max-width:567px){
-    .parent{
-        overflow-y: auto;
-    }
     .child{
         display: grid;
         grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;

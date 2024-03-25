@@ -44,9 +44,9 @@ nav{
     grid-template-columns: 100vh 1fr;
     grid-template-rows: 1fr;
 }
-.img1{
-    width: 90vh;
-    height:80vh;
+img-fluid{
+    max-width: 100%;
+    height:auto;
 }
 .div1{
     grid-column: 1/2;
@@ -95,5 +95,8 @@ html{
         grid-row: 2/3;
         text-align: center;
         background-color: rgb(244, 243, 239);
+    }
+    input{
+        width:30vh;
     }
 }
