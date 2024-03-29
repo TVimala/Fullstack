@@ -118,6 +118,6 @@ html{
     }
     .img1{
         width:100vw;
-        height:350px;
+        height:auto;
     }
 }
