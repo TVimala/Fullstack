@@ -10,7 +10,7 @@ body{
     overflow:hidden
 }
 main{
-        display: grid;
+   display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: 64px 80vh;
         color: rgb(29, 29, 29);
