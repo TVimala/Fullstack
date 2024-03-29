@@ -50,7 +50,7 @@ nav{
     height:100vh;
 }
 .img1{
-    width: 90vw;
+    width: 70vw;
     height:80vh;
 }
 .div1{
@@ -70,7 +70,7 @@ button{
 input{
     background-color: rgb(244, 243, 239);
     height: 6vh;
-    width:60vw;
+    width:50vw;
     margin:0px !important;
 }
 .para{
@@ -109,7 +109,7 @@ html{
     }
     .img1{
         height:60vh;
-        width: 90vw;
+        width: 60vw;
     }
 
 }
