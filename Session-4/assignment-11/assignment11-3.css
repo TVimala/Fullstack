@@ -91,7 +91,7 @@ html{
 }
     .child2{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 90px 1fr;
         background-color: rgb(244, 243, 239);
     }
     .div1{
@@ -109,7 +109,7 @@ html{
     }
     .img1{
         height:60vh;
-        width: 60vw;
+        width: 75vw;
     }
 
 }
