@@ -91,7 +91,7 @@ html{
 }
     .child2{
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 600px;
+        grid-template-rows: 200px 1fr;
         background-color: rgb(244, 243, 239);
     }
     .div1{
