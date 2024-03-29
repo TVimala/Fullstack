@@ -50,8 +50,8 @@ nav{
     height:auto;
 }
 .img1{
-    width:800px;
-    height:800px;
+    width:950px;
+    height:950px;
 }
 .div1{
     grid-column: 1/2;
@@ -91,7 +91,7 @@ html{
 }
     .child2{
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 1fr;
+        grid-template-rows: 200px 600px;
         background-color: rgb(244, 243, 239);
     }
     .div1{
@@ -104,12 +104,12 @@ html{
         text-align: center;
     }
     input{
-        width:30vw;
-        height:5vh;
+        width:90px;
+        height:25px;
     }
     .img1{
-        height:60vh;
-        width: 75vw;
+        height:550px;
+        width: 550px;
     }
 
 }
