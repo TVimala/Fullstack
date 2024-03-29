@@ -47,7 +47,7 @@ nav{
     grid-template-columns: 100vh 1fr;
     grid-template-rows: 1fr;
     width:100vw;
-    height:auto;
+    height:100vh;
 }
 .img1{
     width: 90vw;
@@ -105,10 +105,11 @@ html{
     }
     input{
         width:30vw;
+        height:3vh;
     }
     .img1{
         height:60vh;
-        width: 85vw;
+        width: 90vw;
     }
 
 }
