@@ -50,8 +50,8 @@ nav{
     height:auto;
 }
 .img1{
-    width:700px;
-    height:700px;
+    width:600px;
+    height:600px;
 }
 .div1{
     grid-column: 1/2;
@@ -69,7 +69,7 @@ button{
 }
 input{
     background-color: rgb(244, 243, 239);
-    height:30px;
+    height:35px;
     width:350px;
     margin:0px !important;
 }
