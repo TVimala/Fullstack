@@ -12,7 +12,7 @@ body{
 main{
    display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 64px 80vh;
+        grid-template-rows: 64px 100vh;
         color: rgb(29, 29, 29);
         font-size: 1rem;
         width: 100vw;
