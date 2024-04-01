@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container-fluid {
+    margin: 5px;
+}
+.col,.col-8{
+    background-color: rgb(227, 242, 255);
+    text-align: center;
+    border: 0.50px solid black;
+    display: flex;
+    justify-content: center;
+}
