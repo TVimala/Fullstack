@@ -49,7 +49,3 @@ for(let i=0;i<n;i++){
     v=Math.floor(v/10);
 }
 console.log("Sum:"+sum);
-
-
-
-
