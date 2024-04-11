@@ -26,7 +26,7 @@ class product{
     this.model=model
     this.price=price
     }
-    discount(val) {
+    discount(val){
       let Amount = (this.price-this.price*(val/ 100))
         console.log("discount amount:"+Amount)
     }
