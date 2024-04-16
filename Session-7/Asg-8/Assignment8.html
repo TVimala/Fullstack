@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body style="text-align:center;">
+    <h1 style="text-align: center;">JS</h1>
+    <p>
+        import { employees } from "./Assignment-8.js";
+console.log(employees)
+console.log("Employees name:")
+for (let i = 0; i < employees.length; i++) {
+    if (employees[i].address.city.toLowerCase()==='hyderabad') {
+        console.log(employees[i].name);
+    }
+}
+<br>
+console.log("Names and address according to age:")
+let Emp=employees.filter((e)=>e.age>=40 && e.age<=50)
+Emp.forEach((employee) => {
+console.log(employee.name);
+console.log(employee.address);
+})
+<br>
+console.log("Employees not from Hyd:")
+for (let i = 0; i < employees.length; i++) {
+    if (employees[i].address.city.toLowerCase()!='hyderabad') {
+        console.log(employees[i]);
+    }
+}
+<br>
+console.log("Skills includes Reactjs:")
+let skill=employees.filter((e)=>e.skills.includes('reactjs'))
+skill.forEach((e)=>{
+    console.log(e.name);
+})
+</p>
+    <script type="module" src="Assignment8-1.js"></script>
+</body>
+</html>
