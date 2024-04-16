@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .con2{
-    padding:85px;
+    justify-content: center;
     color: white;
     grid-column: 2/3;
     grid-row: 1/2;
