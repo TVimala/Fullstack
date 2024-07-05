@@ -11,6 +11,7 @@ OUTPUT:
 ![image](https://github.com/TVimala/Fullstack/assets/143889003/cf1ca8be-2543-4465-8188-a47867cbf1a8)
 
 3.post http://localhost:3500/product
+
 Content-Type: application/json
 
  {
